@@ -1,7 +1,7 @@
 # Homework 2
 num1 = int(input("enter num1 : \n1.num1= "))
-num2 = int(input("enter num2 : \n.num2= "))
-num3 = int(input("enter num3 : \n1.num3= "))
+num2 = int(input("enter num2 : \n2.num2= "))
+num3 = int(input("enter num3 : \n3.num3= "))
 if num1>num2 and num1>num3:
     print( "The maximum number is: ",num1)
 if num2>num1 and num2>num3 :
