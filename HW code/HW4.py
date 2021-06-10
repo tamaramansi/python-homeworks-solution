@@ -28,14 +28,17 @@ while x<=width:
     x+=1
 
 #HW4 Average of numbers 
-"""
-x=[]
-while x!= "q" :
-    numb=[(input("enter your number ="))]
-    x=input( "if you want to end this enter q otherwise enter anything")
-    avg= sum(numb)/len(numb)
+x=0
+Sum=0
+while True:
+    numb=input("enter your number  =")
+    if numb=="q":
+      break 
+  
+    Sum+=float(numb)
+    x+=1
+avg=Sum/x 
 print("Average = ",avg)
-"""
 
 
 
