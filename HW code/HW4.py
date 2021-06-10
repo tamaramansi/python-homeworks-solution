@@ -22,10 +22,15 @@ length=float(input("the length of the rectangular = "))
 width= float(input("the width of the rectangular = "))
 area= length*width
 print("the area = ",area)
-x=0
-while x<=width:
-    print("|")
+x=1
+y=1
+while x<=length:
+    print("-",end="")
     x+=1
+print("\n")
+while y<=width:
+     print("|")
+     y+=1
 
 #HW4 Average of numbers 
 x=0
